@@ -1,0 +1,47 @@
+* {
+  background-color: #EAE7DC;
+}
+.heading1, .content, .category, .featured_heading, .featured_category, .read_article {
+  color: #202124; 
+  font-family: 'Google sans', 'Roboto'; 
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.featured_heading {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.featured_category {
+  margin-top: 30px;
+}
+
+.heading1 { 
+  font-size: 20px; 
+  text-transform: uppercase; 
+}
+
+.content { 
+  font-size: 16px;
+}
+
+.category, .featured_category {
+  font-size: 15px; 
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+.read_article {
+  margin-top: 30px;
+}
+
+a:hover { 
+  text-decoration: underline 
+}
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
